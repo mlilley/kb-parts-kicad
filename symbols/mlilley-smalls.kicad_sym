@@ -78,7 +78,7 @@
 		)
 		(symbol "diode_1_1"
 			(pin passive line
-				(at -1.27 0 0)
+				(at 1.27 0 180)
 				(length 0.635)
 				(name ""
 					(effects
@@ -96,7 +96,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 0 180)
+				(at -1.27 0 0)
 				(length 0.635)
 				(name ""
 					(effects
@@ -216,24 +216,6 @@
 		)
 		(symbol "led_1_1"
 			(pin passive line
-				(at -1.27 0 0)
-				(length 0.635)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 1.27 0 180)
 				(length 0.635)
 				(name "K"
@@ -243,7 +225,25 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 0 0)
+				(length 0.635)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -324,7 +324,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -342,7 +342,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
